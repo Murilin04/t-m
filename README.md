@@ -12,7 +12,7 @@ Abra `js/main.js` e confira o bloco `CONFIG`:
 - `instagramUrl` — já aponta para `instagram.com/tem_manutencao`.
 - `nomeEmpresa`, `regiaoTexto`, `horarioTexto` — ajuste se algo mudar.
 
-Os preços dos planos (`R$180`, `R$280`, `R$380`) são valores de referência que eu sugeri, não vieram do Instagram — confirme com a T&M antes de publicar.
+Os preços dos planos (`R$200` semanal, `R$260` premium) foram confirmados com a T&M.
 
 ## Aparecer bem nas buscas em Formosa (GO)
 

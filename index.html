@@ -92,7 +92,7 @@
     <div class="steps">
       <div class="step"><div class="n mono">01</div><h3>Chama no WhatsApp</h3><p>Manda o endereço e, se puder, uma foto da piscina. Em poucos minutos você já sabe os próximos passos.</p></div>
       <div class="step"><div class="n mono">02</div><h3>Visita técnica gratuita</h3><p>Avaliamos o tamanho, o estado da água e do equipamento para indicar o plano certo — sem custo e sem compromisso.</p></div>
-      <div class="step"><div class="n mono">03</div><h3>Assinatura mensal</h3><p>Fechado o plano, a equipe passa toda semana ou quinzena. Você recebe um relatório rápido a cada visita.</p></div>
+      <div class="step"><div class="n mono">03</div><h3>Assinatura mensal</h3><p>Fechado o plano, a equipe passa toda semana. Você recebe um relatório rápido a cada visita.</p></div>
     </div>
   </div>
 </section>
@@ -103,36 +103,26 @@
     <h2>Preço fixo por mês, sem chamar faxina avulsa toda vez</h2>
     <p class="section-lead">Valores de referência para piscinas residenciais de porte médio — ajustamos conforme o tamanho da piscina na visita técnica.</p>
     <div class="plans">
-      <div class="plan">
-        <h3>Essencial</h3>
-        <div class="freq">Visita quinzenal</div>
-        <div class="price mono">R$180<small>/mês</small></div>
+      <div class="plan featured">
+        <span class="badge">Mais contratado</span>
+        <h3>Semanal</h3>
+        <div class="freq">Visita semanal</div>
+        <div class="price mono">R$200<small>/mês</small></div>
         <ul>
           <li>Limpeza de fundo, bordas e skimmer</li>
           <li>Escovação de paredes</li>
-          <li>Medição e ajuste de pH e cloro</li>
-        </ul>
-        <a class="btn ghost" href="#" data-plan="Essencial (visita quinzenal)" target="_blank" rel="noopener noreferrer">Quero esse plano</a>
-      </div>
-      <div class="plan featured">
-        <span class="badge">Mais contratado</span>
-        <h3>Completo</h3>
-        <div class="freq">Visita semanal</div>
-        <div class="price mono">R$280<small>/mês</small></div>
-        <ul>
-          <li>Tudo do plano Essencial, toda semana</li>
           <li>Tratamento químico completo</li>
           <li>Verificação de bomba e filtro</li>
-          <li>Relatório fotográfico da visita</li>
         </ul>
-        <a class="btn primary" href="#" data-plan="Completo (visita semanal)" target="_blank" rel="noopener noreferrer">Quero esse plano</a>
+        <a class="btn primary" href="#" data-plan="Semanal" target="_blank" rel="noopener noreferrer">Quero esse plano</a>
       </div>
       <div class="plan">
         <h3>Premium</h3>
         <div class="freq">Visita semanal + prioridade</div>
-        <div class="price mono">R$380<small>/mês</small></div>
+        <div class="price mono">R$260<small>/mês</small></div>
         <ul>
-          <li>Tudo do plano Completo</li>
+          <li>Tudo do plano Semanal</li>
+          <li>Relatório fotográfico da visita</li>
           <li>Atendimento prioritário em imprevistos</li>
           <li>Revisão trimestral de equipamentos</li>
           <li>Desconto em pequenos reparos</li>
@@ -264,6 +254,13 @@
     <span>WhatsApp</span>
   </a>
 </div>
+
+<dialog class="wa-modal" id="waModal" aria-labelledby="waModalTitle">
+  <button class="wa-modal-close" id="waModalClose" type="button" aria-label="Fechar">&times;</button>
+  <h3 id="waModalTitle">Falar com quem?</h3>
+  <p>Escolha quem vai te atender agora:</p>
+  <div class="wa-modal-options" id="waModalOptions"></div>
+</dialog>
 
 <script src="js/main.js"></script>
 </body>
