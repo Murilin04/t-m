@@ -10,7 +10,7 @@
     // "https://wa.me/55DDDNUMERO"
     whatsappLink: "https://wa.me/message/6XUC6Z4WZH77O1",
     instagramUrl: "https://www.instagram.com/tem_manutencao/",
-    regiaoTexto: "Atendemos Planaltina (GO) e região. Manda seu endereço no WhatsApp que confirmamos na hora se cobrimos sua área.",
+    regiaoTexto: "Atendemos Planaltina (GO), Formosa (GO) e região. Manda seu endereço no WhatsApp que confirmamos na hora se cobrimos sua área.",
     horarioTexto: "seg. a sáb., 8h às 18h"
   };
   // =================================================================

@@ -14,6 +14,15 @@ Abra `js/main.js` e confira o bloco `CONFIG`:
 
 Os preços dos planos (`R$180`, `R$280`, `R$380`) são valores de referência que eu sugeri, não vieram do Instagram — confirme com a T&M antes de publicar.
 
+## Aparecer bem nas buscas em Formosa (GO)
+
+O site já está preparado com SEO local (título, descrição, dados estruturados) mencionando Planaltina e Formosa. Mas o que mais pesa pra aparecer bem quando alguém pesquisa "manutenção de piscina Formosa GO" no Google é:
+
+1. **Criar um Google Perfil da Empresa** (business.google.com) com endereço/área de atendimento incluindo Formosa, categoria "Serviço de manutenção de piscina", fotos e o link do site. Isso é o que faz aparecer no mapa e nos resultados locais — nenhum código no site substitui isso.
+2. **Pedir avaliações (reviews)** dos clientes de Formosa no Google — poucas avaliações locais já ajudam muito no ranking de bairro/cidade.
+3. Depois de publicar o site num domínio final, atualizar as tags `og:image` e o `image`/`url` do JSON-LD em `index.html` para URLs absolutas (ex.: `https://seudominio.com/img/logo.png`) — hoje estão relativas.
+4. Se fizerem posts no Instagram sobre serviços em Formosa, marcar a localização "Formosa, GO" no post ajuda o Instagram/Google a associar a empresa à cidade.
+
 ## Imagens e vídeos
 
 - `img/logo.png` — logo real da T&M (usada no cabeçalho, favicon e card do Instagram).
